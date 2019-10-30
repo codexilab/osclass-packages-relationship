@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Packages relationship (extension)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-17 09:54+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: codexilab <admin@codexilab.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.7\n"
+
+msgid "Removed from <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "<a href=\"%s\">%s</a> has left the company"
+msgstr ""
+
+msgid "Request rejected by <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Request rejected from <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Invitation rejected by <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Invitation rejected from <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Invitation accepted from <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Request accepted from <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Invitation accepted by <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Request accepted by <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "Packages relationship (extension)"
+msgstr ""
+
+msgid "Notifications module"
+msgstr ""
+
+msgid "Show from user menu"
+msgstr ""
+
+msgid "Use this script for show manually (if you want)"
+msgstr ""
+
+msgid "Company module"
+msgstr ""
+
+msgid "Requests/Invitations module"
+msgstr ""
+
+msgid "Black list"
+msgstr ""
+
+msgid "Unblock account"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Leave company"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Are you sure you want to leave the company?"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
+msgid "Disinherit"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "You not have members"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "There are not anything"
+msgstr ""
+
+msgid "Invitations"
+msgstr ""
+
+msgid "Requests"
+msgstr ""
+
+msgid "Accept invitation"
+msgstr ""
+
+msgid "Leave the current company for accept invitation from other company."
+msgstr ""
+
+msgid "Accept request"
+msgstr ""
+
+msgid "This user still belongs to a company. Wait for to the user leave the company for you can accept the request."
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Block account"
+msgstr ""
+
+msgid "Request sent"
+msgstr ""
+
+msgid "Receive requests?"
+msgstr ""
+
+msgid "Receive invitations?"
+msgstr ""
+
+msgid "Your company"
+msgstr ""
+
+msgid "Use package"
+msgstr ""
+
+msgid "Awaiting approval"
+msgstr ""
+
+msgid "Waiting accept"
+msgstr ""
+
+msgid "Remove invitation"
+msgstr ""
+
+msgid "Unblock"
+msgstr ""
+
+msgid "Are you sure you want remove invitation?"
+msgstr ""
+
+msgid "Are you sure you want remove request?"
+msgstr ""
+
+msgid "Remove request"
+msgstr ""
+
+msgid "The user can not send you requests"
+msgstr ""
+
+msgid "Remove user"
+msgstr ""
+
+msgid "Add user"
+msgstr ""
+
+msgid "Are you sure you want to block account?"
+msgstr ""
+
+msgid "Join company"
+msgstr ""
+
+msgid "The package of your company is defeated, contact your company"
+msgstr ""
+
+msgid "You have used all the package you have been assigned, contact your company for an upgrade"
+msgstr ""
+

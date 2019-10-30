@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Packages relationship (extension)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-17 09:54+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Adrián Olmedo <adrianolmedo.ve@gmail.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language-Team: \n"
+
+msgid "Removed from <a href=\"%s\">%s</a>"
+msgstr "Removido de <a href=\"%s\">%s</a>"
+
+msgid "<a href=\"%s\">%s</a> has left the company"
+msgstr "<a href=\"%s\">%s</a> ha dejado la compañía"
+
+msgid "Request rejected by <a href=\"%s\">%s</a>"
+msgstr "Solicitud rechazada por <a href=\"%s\">%s</a>"
+
+msgid "Request rejected from <a href=\"%s\">%s</a>"
+msgstr "Solicitud rechazada de <a href=\"%s\">%s</a>"
+
+msgid "Invitation rejected by <a href=\"%s\">%s</a>"
+msgstr "Invitación rechazada por <a href=\"%s\">%s</a>"
+
+msgid "Invitation rejected from <a href=\"%s\">%s</a>"
+msgstr "Invitación rechazada de <a href=\"%s\">%s</a>"
+
+msgid "Invitation accepted from <a href=\"%s\">%s</a>"
+msgstr "Invitación aceptada de <a href=\"%s\">%s</a>"
+
+msgid "Request accepted from <a href=\"%s\">%s</a>"
+msgstr "Solicitud aceptada de <a href=\"%s\">%s</a>"
+
+msgid "Invitation accepted by <a href=\"%s\">%s</a>"
+msgstr "Invitación aceptada por <a href=\"%s\">%s</a>"
+
+msgid "Request accepted by <a href=\"%s\">%s</a>"
+msgstr "Solicitud aceptada por <a href=\"%s\">%s</a>"
+
+msgid "Packages relationship (extension)"
+msgstr "Packages relationship (extension)"
+
+msgid "Notifications module"
+msgstr "Módulo de notificaciones"
+
+msgid "Show from user menu"
+msgstr "Mostrar desde el menú del usuario"
+
+msgid "Use this script for show manually (if you want)"
+msgstr "Usa este script para mostrar manualmente (si deseas)"
+
+msgid "Company module"
+msgstr "Módulo de compañía"
+
+msgid "Requests/Invitations module"
+msgstr "Módulo de Solicitudes/Invitaciones"
+
+msgid "Black list"
+msgstr "Lista negra"
+
+msgid "Unblock account"
+msgstr "Desbloquear cuenta"
+
+msgid "Company"
+msgstr "Compañía"
+
+msgid "Leave company"
+msgstr "Dejar compañía"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Are you sure you want to leave the company?"
+msgstr "¿Estás seguro que quieres dejar la compañía?"
+
+msgid "Members"
+msgstr "Miembros"
+
+msgid "Disinherit"
+msgstr "Desheredar"
+
+msgid "Inherit"
+msgstr "Heredar"
+
+msgid "You not have members"
+msgstr "No tienes miembros"
+
+msgid "Notifications"
+msgstr "Notificaciones"
+
+msgid "There are not anything"
+msgstr "No hay nada"
+
+msgid "Invitations"
+msgstr "Invitaciones"
+
+msgid "Requests"
+msgstr "Solicitudes"
+
+msgid "Accept invitation"
+msgstr "Aceptar invitación"
+
+msgid "Leave the current company for accept invitation from other company."
+msgstr "Dejar la compañía actual para aceptar la invitación de otra compañía."
+
+msgid "Accept request"
+msgstr "Aceptar solicitud"
+
+msgid ""
+"This user still belongs to a company. Wait for to the user leave the company "
+"for you can accept the request."
+msgstr ""
+"Este usuario todavía pertenece a una compañía. Espere a que el usuario deje "
+"la compañía para que pueda aceptar la solicitud."
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Block account"
+msgstr "Bloquear cuenta"
+
+msgid "Request sent"
+msgstr "Solicitud enviada"
+
+msgid "Receive requests?"
+msgstr "¿Recibir solicitudes?"
+
+msgid "Receive invitations?"
+msgstr "¿Recibir invitaciones"
+
+msgid "Your company"
+msgstr "Tu compañía"
+
+msgid "Use package"
+msgstr "Usar paquete"
+
+msgid "Awaiting approval"
+msgstr "Esperando aprobacion"
+
+msgid "Waiting accept"
+msgstr "Esperando aceptar"
+
+msgid "Remove invitation"
+msgstr "Remover invitación"
+
+msgid "Unblock"
+msgstr "Desbloquear"
+
+msgid "Are you sure you want remove invitation?"
+msgstr "¿Estás seguro que quiere remover la invitación?"
+
+msgid "Are you sure you want remove request?"
+msgstr "¿Estás seguro que quiere remover la solicitud?"
+
+msgid "Remove request"
+msgstr "Remover solicitud"
+
+msgid "The user can not send you requests"
+msgstr "El usuario no puede envirte solicitudes"
+
+msgid "Remove user"
+msgstr "Remover usuario"
+
+msgid "Add user"
+msgstr "Agregar usuario"
+
+msgid "Are you sure you want to block account?"
+msgstr "¿Seguro que quiere bloquear cuenta?"
+
+msgid "Join company"
+msgstr "Unirse"
+
+msgid "The package of your company is defeated, contact your company"
+msgstr "El paquete de su empresa está caducado, contacte a su compañía."
+
+msgid ""
+"You have used all the package you have been assigned, contact your company "
+"for an upgrade"
+msgstr ""
+"Ha utilizado todo el paquete que se le ha asignado; póngase en contacto con "
+"su compañía para obtener una actualización."
