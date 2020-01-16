@@ -17,13 +17,13 @@
  
 /*
 Plugin Name: Packages relationship (extension)
-Plugin URI: http://codexilab.com/plugin/packages-relationship
+Plugin URI: https://codexilab.com/plugins/osclass/packages-relationship
 Description: Users hierarchy system between Company and Users (extension for Promotional packages system).
 Version: 1.0.0
 Author: CodexiLab
 Author URI: http://codexilab.com/authors/adrianolmedo
 Short Name: packages-relationship-extension
-Plugin update URI: https://codexilab.com/plugin/packages-relationship-extension
+Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 */
 
 	// Paths
