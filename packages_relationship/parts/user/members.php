@@ -32,10 +32,10 @@ if (osc_logged_user_type() == 1) : ?>
 			<small>
 				<?php echo osc_format_date($link['dt_date'], osc_date_format()); ?>
 				
-				<a href="javascript:packages_relationship_action('delete_link', <?php echo $link['fk_i_user_son_id'] ?>);">Remove</a>
+				<a href="javascript:void(0);" onclick="packages_relationship_action('delete_link', <?php echo $link['fk_i_user_son_id'] ?>);return false;">Remove</a>
 
 				<?php if ( get_package_assigned(osc_logged_user_id()) ) : ?>
-				 - <a href="javascript:packages_relationship_action('inheritance', <?php echo $link['fk_i_user_son_id']; ?>);"><?php echo ($link['b_inherited'] == true) ? __("Disinherit", 'packages_relationship') : __("Inherit", 'packages_relationship'); ?></a>
+				 - <a href="javascript:void(0);" onclick="packages_relationship_action('inheritance', <?php echo $link['fk_i_user_son_id']; ?>);return false;"><?php echo ($link['b_inherited'] == true) ? __("Disinherit", 'packages_relationship') : __("Inherit", 'packages_relationship'); ?></a>
 				<?php endif; ?>
 
 			</small>

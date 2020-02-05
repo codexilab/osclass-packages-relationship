@@ -43,7 +43,7 @@ $requests_sent 	= packages_relationship_requests_sent(); ?>
 			<a href="#link-notice"><?php _e("Accept invitation", 'packages'); ?></a>
 			<div id="link-notice" class="packages-modal-window"><div class="pck-msg-40"><a href="#modal-close" title="Close" class="modal-close">close &times;</a><h2><?php echo _e("Message", 'packages_relationship'); ?></h2><div class="modal-content"><center><?php echo _e("Leave the current company for accept invitation from other company.", 'packages_relationship'); ?></center></div></div></div>
 			<?php else : ?>
-			<a href="javascript:packages_relationship_action('accept_request', <?php echo $request['fk_i_from_user_id'] ?>);"><?php _e("Accept invitation", 'packages_relationship'); ?></a>
+			<a href="javascript:void(0);" onclick="packages_relationship_action('accept_request', <?php echo $request['fk_i_from_user_id'] ?>);return false;"><?php _e("Accept invitation", 'packages_relationship'); ?></a>
 			<?php endif; ?>
 		
 		<?php else : ?>
@@ -53,13 +53,13 @@ $requests_sent 	= packages_relationship_requests_sent(); ?>
 			<a href="#link-notice"><?php _e("Accept request", 'packages'); ?></a>
 			<div id="link-notice" class="packages-modal-window"><div class="pck-msg-40"><a href="#modal-close" title="Close" class="modal-close">close &times;</a><h2><?php echo _e("Message", 'packages_relationship'); ?></h2><div class="modal-content"><center><?php echo _e("This user still belongs to a company. Wait for to the user leave the company for you can accept the request.", 'packages_relationship'); ?></center></div></div></div>
 			<?php else : ?>
-			<a href="javascript:packages_relationship_action('accept_request', <?php echo $request['fk_i_from_user_id'] ?>);"><?php _e("Accept request", 'packages_relationship'); ?></a>
+			<a href="javascript:void(0);" onclick="packages_relationship_action('accept_request', <?php echo $request['fk_i_from_user_id'] ?>);return false;"><?php _e("Accept request", 'packages_relationship'); ?></a>
 			<?php endif; ?>
 			
 		<?php endif; ?>
 		 - 
-		<a href="javascript:packages_relationship_action('remove_request', <?php echo $request['fk_i_from_user_id'] ?>);"><?php _e("Remove", 'packages_relationship'); ?></a> - 
-		<a href="javascript:packages_relationship_action('block_account', <?php echo $request['fk_i_from_user_id'] ?>);"><?php _e("Block account", 'packages_relationship'); ?></a>
+		<a href="javascript:void(0);" onclick="packages_relationship_action('remove_request', <?php echo $request['fk_i_from_user_id'] ?>);return false;"><?php _e("Remove", 'packages_relationship'); ?></a> - 
+		<a href="javascript:void(0);" onclick="packages_relationship_action('block_account', <?php echo $request['fk_i_from_user_id'] ?>);return false;"><?php _e("Block account", 'packages_relationship'); ?></a>
 
 	</small><br />
 	<?php endforeach; ?>
@@ -75,7 +75,7 @@ $requests_sent 	= packages_relationship_requests_sent(); ?>
 	<a href="<?php echo osc_user_public_profile_url($request_sent['fk_i_to_user_id']); ?>"><?php echo get_user_name($request_sent['fk_i_to_user_id']); ?></a>
 	<small>
 		<?php echo osc_format_date($request_sent['dt_date'], osc_date_format()); ?>
-		<a href="javascript:packages_relationship_action('remove_request', <?php echo $request_sent['fk_i_to_user_id'] ?>);"><?php _e("Remove", 'packages_relationship'); ?></a>
+		<a href="javascript:void(0);" onclick="packages_relationship_action('remove_request', <?php echo $request_sent['fk_i_to_user_id'] ?>);return false;"><?php _e("Remove", 'packages_relationship'); ?></a>
 	</small><br />
 	<?php endforeach; ?>
 

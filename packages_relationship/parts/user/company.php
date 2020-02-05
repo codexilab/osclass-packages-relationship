@@ -37,7 +37,7 @@ $link = PackagesRelationship::newInstance()->getLinkByUserSon(osc_logged_user_id
 		<div class="modal-content">
 			<center>
 				<?php _e("Are you sure you want to leave the company?", 'packages_relationship'); ?><br>
-				<a href="javascript:packages_relationship_action('delete_link', <?php echo $link['fk_i_user_id'] ?>);" onclick="location.href='#modal-close';"><?php _e("Leave company", 'packages_relationship'); ?></a>
+				<a href="javascript:void(0);" onclick="packages_relationship_action('delete_link', <?php echo $link['fk_i_user_id'] ?>);return false;" onclick="location.href='#modal-close';"><?php _e("Leave company", 'packages_relationship'); ?></a>
 			</center>
 		</div>
 	</div>
