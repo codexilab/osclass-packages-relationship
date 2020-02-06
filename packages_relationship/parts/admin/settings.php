@@ -71,7 +71,7 @@ $htmlStyle .= '</style>';
 
 echo $htmlStyle;
 ?>
-<br>
+<br><br>
 <h2 class="render-title"><?php _e("Packages relationship (extension)", 'packages_relationship'); ?></h2>
 
 <!-- Notifications module setting -->

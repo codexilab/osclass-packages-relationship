@@ -18,7 +18,7 @@
 /*
 Plugin Name: Packages relationship (extension)
 Plugin URI: https://github.com/codexilab/osclass-packages-relationship
-Description: Users hierarchy system between Company and Users (extension for Promotional packages system).
+Description: Users hierarchy system between Company and Users (extension for Promotional Packages System).
 Version: 1.0.2
 Author: CodexiLab
 Author URI: https://github.com/codexilab
@@ -34,13 +34,14 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 	require_once PACKAGES_RELATIONSHIP_PATH . 'model/PackagesRelationship.php';
 	
 	/**
-	* If the plugin Promotional packages system is enabled for run extension
+	* If the plugin Promotional Packages System is enabled for run extension
 	*/
 	if (osc_plugin_is_enabled('packages/index.php')) :
 
 		// controllers and helpers
 		require_once PACKAGES_RELATIONSHIP_PATH . 'oc-load.php';
 
+		
 		// Custom settings controller
 		function custom_actions_packages_admin_settings() {
 			$do = new CCustomAdminPackagesSettings();
@@ -48,7 +49,7 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 		}
 		osc_add_hook('admin_packages_settings_done', 'custom_actions_packages_admin_settings');
 
-		// Add part to into form of Promotional packages settings
+		// Add part to into form of Promotional Packages settings
 	    function packages_relationship_settings() {
 	    	include PACKAGES_RELATIONSHIP_PATH . 'parts/admin/settings.php';
 	    }
@@ -164,7 +165,7 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 		 * [4] Blocked
 		 */
 
-		// [0] Company (modle for User type accounts)
+		// [0] Company (module for User type accounts)
 		function packages_relationship_company_module($modules = null) {
 			$return = printf('<div id="packages-relationship-company">');
 			include PACKAGES_RELATIONSHIP_PATH . 'parts/user/company.php';
