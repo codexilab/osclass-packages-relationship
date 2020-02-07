@@ -55,6 +55,18 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 	    }
 	   	osc_add_hook('packages_into_form_settings', 'packages_relationship_settings');
 
+	   	
+	   	// Add part to Help(?) page of Promotional Packages System
+	    function packages_relationship_help_faq() {
+	    	include PACKAGES_RELATIONSHIP_PATH . 'parts/admin/help-faq.php';
+	    }
+	   	osc_add_hook('admin_packages_help_faq', 'packages_relationship_help_faq');
+
+	   	function packages_relationship_help_faq_dev() {
+	    	include PACKAGES_RELATIONSHIP_PATH . 'parts/admin/help-faq-dev.php';
+	    }
+	    osc_add_hook('admin_packages_help_faq_dev', 'packages_relationship_help_faq_dev');
+
 
 	   	// For detect inherited package
 	   	function package_info_current($current_packages) {
