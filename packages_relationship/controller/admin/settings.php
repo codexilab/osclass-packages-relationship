@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,23 +27,23 @@ class CCustomAdminPackagesSettings extends AdminSecBaseModel
 
         switch (Params::getParam('plugin_action')) {
             case 'done':
-                if (Params::getParam('packages_profile_info') != osc_get_preference('packages_profile_info', 'packages')) {
+                if (Params::getParam('packages_profile_info') != osc_get_preference('packages_profile_info', 'packages_relationship')) {
                     osc_set_preference('packages_profile_info', Params::getParam('packages_profile_info'), 'packages_relationship', 'BOOLEAN');    
                 }
                 
-                if (Params::getParam('company_module') != osc_get_preference('company_module', 'packages')) {
+                if (Params::getParam('company_module') != osc_get_preference('company_module', 'packages_relationship')) {
                     osc_set_preference('company_module', Params::getParam('company_module'), 'packages_relationship', 'BOOLEAN');
                 }
 
-                if (Params::getParam('members_module') != osc_get_preference('members_module', 'packages')) {
+                if (Params::getParam('members_module') != osc_get_preference('members_module', 'packages_relationship')) {
                     osc_set_preference('members_module', Params::getParam('members_module'), 'packages_relationship', 'BOOLEAN');
                 }
 
-                if (Params::getParam('requests_module') != osc_get_preference('requests_module', 'packages')) {
+                if (Params::getParam('requests_module') != osc_get_preference('requests_module', 'packages_relationship')) {
                     osc_set_preference('requests_module', Params::getParam('requests_module'), 'packages_relationship', 'BOOLEAN');
                 }
 
-                if (Params::getParam('blocked_module') != osc_get_preference('blocked_module', 'packages')) {
+                if (Params::getParam('blocked_module') != osc_get_preference('blocked_module', 'packages_relationship')) {
                     osc_set_preference('blocked_module', Params::getParam('blocked_module'), 'packages_relationship', 'BOOLEAN');
                 }
                 

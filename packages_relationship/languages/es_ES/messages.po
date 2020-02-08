@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language-Team: \n"
 
 msgid "Removed from <a href=\"%s\">%s</a>"
@@ -114,12 +114,8 @@ msgstr "Dejar la compañía actual para aceptar la invitación de otra compañí
 msgid "Accept request"
 msgstr "Aceptar solicitud"
 
-msgid ""
-"This user still belongs to a company. Wait for to the user leave the company "
-"for you can accept the request."
-msgstr ""
-"Este usuario todavía pertenece a una compañía. Espere a que el usuario deje "
-"la compañía para que pueda aceptar la solicitud."
+msgid "This user still belongs to a company. Wait for to the user leave the company for you can accept the request."
+msgstr "Este usuario todavía pertenece a una compañía. Espere a que el usuario deje la compañía para que pueda aceptar la solicitud."
 
 msgid "Remove"
 msgstr "Remover"
@@ -134,7 +130,7 @@ msgid "Receive requests?"
 msgstr "¿Recibir solicitudes?"
 
 msgid "Receive invitations?"
-msgstr "¿Recibir invitaciones"
+msgstr "¿Recibir invitaciones?"
 
 msgid "Your company"
 msgstr "Tu compañía"
@@ -179,11 +175,61 @@ msgid "Join company"
 msgstr "Unirse"
 
 msgid "The package of your company is defeated, contact your company"
-msgstr "El paquete de su empresa está caducado, contacte a su compañía."
+msgstr "El paquete de su empresa está caducado, contacte a su compañía"
 
-msgid ""
-"You have used all the package you have been assigned, contact your company "
-"for an upgrade"
-msgstr ""
-"Ha utilizado todo el paquete que se le ha asignado; póngase en contacto con "
-"su compañía para obtener una actualización."
+msgid "You have used all the package you have been assigned, contact your company for an upgrade"
+msgstr "Ha utilizado todo el paquete que se le ha asignado; póngase en contacto con su compañía para obtener una actualización"
+
+msgid "I have a User type account, why can't I receive invitations from Company type accounts?"
+msgstr "Tengo una cuenta de tipo Usuario, ¿por qué no puedo recibir invitaciones de cuentas de tipo Empresa?"
+
+msgid "Go to Update account (from user logged)."
+msgstr "Vaya a Actualizar la cuenta (desde usuario logeado)."
+
+msgid "Mark 'Receive invitations' field."
+msgstr "Marcar el campo 'Recibir invitaciones'."
+
+msgid "Update."
+msgstr "Actualizar."
+
+msgid "I have a Company type account, why can't I receive requests from User type accounts?"
+msgstr "Tengo una cuenta de tipo Empresa, ¿por qué no puedo recibir solicitudes de cuentas de tipo Usuario?"
+
+msgid "Go to Update account (from company logged)."
+msgstr "Vaya a Actualizar la cuenta (desde empresa logeada)."
+
+msgid "Mark 'Receive requests' field."
+msgstr "Marcar el campo 'Recibir solicitudes'."
+
+msgid "I am User type account and I have joined a company, why I have not inherited the package of the company?"
+msgstr "Soy una cuenta de tipo usuario y me he unido a una empresa, ¿por qué no heredé el paquete de la empresa?"
+
+msgid "When a user account is a member of a company, it does not automatically inherit the package from the company."
+msgstr "Cuando una cuenta de usuario es miembro de una empresa, no hereda automáticamente el paquete de la empresa."
+
+msgid "The owner of the company's account must click on 'Inherit' to the members who wish they can use their publications package."
+msgstr "El propietario de la cuenta de la empresa debe hacer clic en \"Heredar\" para los miembros que deseen poder utilizar su paquete de publicaciones."
+
+msgid "I am member of a company with its package inherited, but I don't want to use it and at the same time I do not want to leave the company, what do I do?"
+msgstr "Soy miembro de una empresa con su paquete heredado, pero no quiero usarlo y, al mismo tiempo, no quiero dejar la empresa, ¿qué hago?"
+
+msgid "Unmark 'Use package' field."
+msgstr "Desmarque el campo 'Usar paquete'."
+
+msgid "How to custom Company's Package Profile Information?"
+msgstr "¿Cómo personalizo  Company's Package Profile Information?"
+
+msgid "How to custom Company module?"
+msgstr "¿Cómo personalizo el módulo Empresa?"
+
+msgid "How to custom Notifications module?"
+msgstr "¿Cómo personalizo el módulo Notificaciones?"
+
+msgid "How to custom Members module?"
+msgstr "¿Cómo personalizo el módulo Miembros?"
+
+msgid "How to custom Requests/Invitations module?"
+msgstr "¿Cómo personalizo el módulo Sulicitues/Invitaciones?"
+
+msgid "How to custom the public profile buttons?"
+msgstr "¿Cómo personalizo los botones del perfil público?"

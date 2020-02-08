@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
 /*
 Plugin Name: Packages relationship (extension)
 Plugin URI: https://github.com/codexilab/osclass-packages-relationship
-Description: Users hierarchy system between Company and Users (extension for Promotional packages system).
-Version: 1.0.1
+Description: Users hierarchy system between Company and Users (extension for Promotional Packages System).
+Version: 1.0.2
 Author: CodexiLab
 Author URI: https://github.com/codexilab
 Short Name: packages-relationship-extension
@@ -34,13 +34,14 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 	require_once PACKAGES_RELATIONSHIP_PATH . 'model/PackagesRelationship.php';
 	
 	/**
-	* If the plugin Promotional packages system is enabled for run extension
+	* If the plugin Promotional Packages System is enabled for run extension
 	*/
 	if (osc_plugin_is_enabled('packages/index.php')) :
 
 		// controllers and helpers
 		require_once PACKAGES_RELATIONSHIP_PATH . 'oc-load.php';
 
+		
 		// Custom settings controller
 		function custom_actions_packages_admin_settings() {
 			$do = new CCustomAdminPackagesSettings();
@@ -48,11 +49,23 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 		}
 		osc_add_hook('admin_packages_settings_done', 'custom_actions_packages_admin_settings');
 
-		// Add part to into form of Promotional packages settings
+		// Add part to into form of Promotional Packages settings
 	    function packages_relationship_settings() {
 	    	include PACKAGES_RELATIONSHIP_PATH . 'parts/admin/settings.php';
 	    }
 	   	osc_add_hook('packages_into_form_settings', 'packages_relationship_settings');
+
+	   	
+	   	// Add part to Help(?) page of Promotional Packages System
+	    function packages_relationship_help_faq() {
+	    	include PACKAGES_RELATIONSHIP_PATH . 'parts/admin/help-faq.php';
+	    }
+	   	osc_add_hook('admin_packages_help_faq', 'packages_relationship_help_faq');
+
+	   	function packages_relationship_help_faq_dev() {
+	    	include PACKAGES_RELATIONSHIP_PATH . 'parts/admin/help-faq-dev.php';
+	    }
+	    osc_add_hook('admin_packages_help_faq_dev', 'packages_relationship_help_faq_dev');
 
 
 	   	// For detect inherited package
@@ -164,7 +177,7 @@ Plugin update URI: https://github.com/codexilab/osclass-packages-relationship
 		 * [4] Blocked
 		 */
 
-		// [0] Company (modle for User type accounts)
+		// [0] Company (module for User type accounts)
 		function packages_relationship_company_module($modules = null) {
 			$return = printf('<div id="packages-relationship-company">');
 			include PACKAGES_RELATIONSHIP_PATH . 'parts/user/company.php';

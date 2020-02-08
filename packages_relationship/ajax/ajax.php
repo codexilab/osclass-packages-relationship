@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,8 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-define('IS_AJAX', true);
 
 class CPackagesRelationshipAjax extends WebSecBaseModel
 {

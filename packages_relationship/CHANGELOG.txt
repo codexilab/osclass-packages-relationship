@@ -1,0 +1,14 @@
+Packages Relationship 1.0.2 2020-02-08
+----------------------
+- Added extended help page
+- Fixed a bug that did not let make the settings changes
+- Fixed problem of links that redirect a blank page
+- Minor fixes
+
+Packages Relationship 1.0.1 2020-01-16
+----------------------
+- Release
+
+Packages Relationship  pre-release 1.0 2019-10-30
+-------------------------
+- Pre-release

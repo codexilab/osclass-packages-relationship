@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -71,7 +71,7 @@ $htmlStyle .= '</style>';
 
 echo $htmlStyle;
 ?>
-<br>
+<br><br>
 <h2 class="render-title"><?php _e("Packages relationship (extension)", 'packages_relationship'); ?></h2>
 
 <!-- Notifications module setting -->

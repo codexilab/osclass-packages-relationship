@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@
 	
 	<?php // Unblock button
 	if ($blockedFromUserLogged && !$blockedFromUserProfile) : ?>
-	<a href="javascript:packages_relationship_action('unblock_account');"><?php _e("Unblock", 'packages_relationship'); ?></a>
+	<a href="javascript:void(0);" onclick="packages_relationship_action('unblock_account'); return false;"><?php _e("Unblock", 'packages_relationship'); ?></a>
 	<?php endif; ?>
 
 	<?php if (!$blockedFromUserLogged && !$blockedFromUserProfile) : ?>
@@ -54,7 +54,7 @@
 				<a href="#link-notice"><?php _e("Accept request", 'packages_relationship'); ?></a>
 				<div id="link-notice" class="modalDialog"><div class="pck-msg-40"><a href="#close" title="Close" class="close">X</a><h2><?php _e("Message", 'packages_relationship'); ?></h2><div class="modal-content"><center><?php _e("This user still belongs to a company. Wait for to the user leave the company for you can accept the request.", 'packages_relationship'); ?></center></div></div></div>
 				<?php else : ?>
-				<a href="javascript:packages_relationship_action('accept_request');"><?php _e("Accept request", 'packages_relationship'); ?></a>
+				<a href="javascript:void(0);" onclick="packages_relationship_action('accept_request'); return false;"><?php _e("Accept request", 'packages_relationship'); ?></a>
 				<?php endif; ?>
 
 				<a href="#remove-request"><?php _e("Remove", 'packages_relationship'); ?></a><br />
@@ -67,11 +67,11 @@
 			<?php else : ?>
 				
 				<?php if ($linkFromCompanyLogged) : ?>
-					<a href="javascript:packages_relationship_action('delete_link');"><?php _e("Remove user", 'packages_relationship'); ?></a>
+					<a href="javascript:void(0);" onclick="packages_relationship_action('delete_link');return false;"><?php _e("Remove user", 'packages_relationship'); ?></a>
 				<?php else : ?>
 					<?php // Check this user wants receive requests (invitations)
 					if (packages_relationship_user_requests_config(get_user_id()) == true) : ?>
-					<a href="javascript:packages_relationship_action('send_request');"><?php _e("Add user", 'packages_relationship'); ?></a><br />
+					<a href="javascript:void(0);" onclick="packages_relationship_action('send_request');return false;"><?php _e("Add user", 'packages_relationship'); ?></a><br />
 					<?php endif; ?>
 					
 					<!-- modal window for block account action -->
@@ -99,7 +99,7 @@
 				<a href="#link-notice"><?php _e("Accept invitation", 'packages_relationship'); ?></a>
 				<div id="link-notice" class="modalDialog"><div class="pck-msg-40"><a href="#close" title="Close" class="close">X</a><h2><?php _e("Message", 'packages_relationship'); ?></h2><div class="modal-content"><center><?php _e("Leave the current company for accept invitation from other company.", 'packages_relationship'); ?></center></div></div></div>
 				<?php else : ?>
-				<a href="javascript:packages_relationship_action('accept_request');"><?php _e("Accept invitation", 'packages_relationship'); ?></a>
+				<a href="javascript:void(0);" onclick="packages_relationship_action('accept_request');"><?php _e("Accept invitation", 'packages_relationship'); ?></a>
 				<?php endif; ?>
 
 				<a href="#remove-invitation"><?php _e("Remove", 'packages_relationship'); ?></a><br />
@@ -114,11 +114,11 @@
 				<?php if ($linkFromCompanyProfile) : ?>
 					<!-- modal window for leave company action -->
 					<a href="#delete-link"><?php _e("Leave company", 'packages_relationship'); ?></a>
-					<div id="delete-link" class="modalDialog"><div class="pck-msg-40"><a href="#close" title="Close" class="close">X</a><h2><?php _e("Message", 'packages_relationship'); ?></h2><div class="modal-content"><center><?php _e("Are you sure you want to leave the company?", 'packages_relationship'); ?><br><a href="javascript:packages_relationship_action('delete_link');"><?php _e("Leave company", 'packages_relationship'); ?></a></center></div></div></div>
+					<div id="delete-link" class="modalDialog"><div class="pck-msg-40"><a href="#close" title="Close" class="close">X</a><h2><?php _e("Message", 'packages_relationship'); ?></h2><div class="modal-content"><center><?php _e("Are you sure you want to leave the company?", 'packages_relationship'); ?><br><a href="javascript:void(0);" onclick="packages_relationship_action('delete_link');return false;"><?php _e("Leave company", 'packages_relationship'); ?></a></center></div></div></div>
 				<?php else : ?>
 					<?php // Check this company wants receive requests
 					if (packages_relationship_user_requests_config(get_user_id()) == true) : ?>						
-					<a href="javascript:packages_relationship_action('send_request');"><?php _e("Join company", 'packages_relationship'); ?></a><br />
+					<a href="javascript:void(0);" onclick="packages_relationship_action('send_request');return false;"><?php _e("Join company", 'packages_relationship'); ?></a><br />
 					<?php endif; ?>
 					
 					<!-- modal window for block account action -->

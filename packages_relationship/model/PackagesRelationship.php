@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -101,7 +101,7 @@ class PackagesRelationship extends DAO
 	public function install()
 	{
 		$this->import(PACKAGES_RELATIONSHIP_PATH . 'struct.sql');
-		osc_set_preference('version', '1.0.0', 'packages_relationship', 'STRING');
+		osc_set_preference('version', '1.0.2', 'packages_relationship', 'STRING');
 
         osc_set_preference('notifications_module', 1, 'packages_relationship', 'BOOLEAN');
         osc_set_preference('company_module', 1, 'packages_relationship', 'BOOLEAN');

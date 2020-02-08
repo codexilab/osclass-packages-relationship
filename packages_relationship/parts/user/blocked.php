@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2019 CodexiLab
+ * Copyright 2019 - 2020 CodexiLab
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ $blocked_users = packages_relationship_blocked_users(); ?>
 	<a href="<?php echo osc_user_public_profile_url($blocked_user['fk_i_to_user_id']); ?>"><?php echo get_user_name($blocked_user['fk_i_to_user_id']); ?></a>
 	<small>
 		<?php echo osc_format_date($blocked_user['dt_date'], osc_date_format()); ?>
-		<a href="javascript:packages_relationship_action('unblock_account', <?php echo $blocked_user['fk_i_to_user_id'] ?>);"><?php echo _e("Unblock account", 'packages_relationship'); ?></a>
+		<a href="javascript:void(0);" onclick="packages_relationship_action('unblock_account', <?php echo $blocked_user['fk_i_to_user_id'] ?>);return false;"><?php echo _e("Unblock account", 'packages_relationship'); ?></a>
 	</small><br />
 	<?php endforeach; ?>
 	<br />
