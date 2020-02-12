@@ -19,7 +19,7 @@
 Plugin Name: Packages relationship (extension)
 Plugin URI: https://github.com/codexilab/osclass-packages-relationship
 Description: Users hierarchy system between Company and Users (extension for Promotional Packages System).
-Version: 1.0.2
+Version: 1.0.3
 Author: CodexiLab
 Author URI: https://github.com/codexilab
 Short Name: packages-relationship-extension
