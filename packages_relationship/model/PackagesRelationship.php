@@ -1,4 +1,5 @@
-<?php
+<?php if ( ! defined('ABS_PATH')) exit('ABS_PATH is not loaded. Direct access is not allowed.');
+
 /*
  * Copyright 2019 - 2020 CodexiLab
  *
@@ -101,7 +102,7 @@ class PackagesRelationship extends DAO
 	public function install()
 	{
 		$this->import(PACKAGES_RELATIONSHIP_PATH . 'struct.sql');
-		osc_set_preference('version', '1.0.2', 'packages_relationship', 'STRING');
+		osc_set_preference('version', '1.0.3', 'packages_relationship', 'STRING');
 
         osc_set_preference('notifications_module', 1, 'packages_relationship', 'BOOLEAN');
         osc_set_preference('company_module', 1, 'packages_relationship', 'BOOLEAN');
