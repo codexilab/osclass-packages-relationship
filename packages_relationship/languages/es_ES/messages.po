@@ -54,9 +54,6 @@ msgstr "Módulo de notificaciones"
 msgid "Show from user menu"
 msgstr "Mostrar desde el menú del usuario"
 
-msgid "Use this script for show manually (if you want)"
-msgstr "Usa este script para mostrar manualmente (si deseas)"
-
 msgid "Company module"
 msgstr "Módulo de compañía"
 

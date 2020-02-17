@@ -84,7 +84,7 @@ echo $htmlStyle;
 </div>
 <div id="script-notifications-module" class="form-row">
     <input type="text" class="xlarge" style="width: 300px;" value="&lt;?php osc_run_hook('packages_relationship_notifications_module'); ?&gt;" disabled><br />
-    <?php _e("Use this script for show manually (if you want)", 'packages_relationship'); ?>.
+    <?php _e("Use this script to show manually (if you want)", 'packages'); ?>.
 </div>
 
 <!-- Company module setting -->
@@ -96,7 +96,7 @@ echo $htmlStyle;
 </div>
 <div id="script-company-module" class="form-row">
     <input type="text" class="xlarge" style="width: 300px;" value="&lt;?php osc_run_hook('packages_relationship_company_module'); ?&gt;" disabled><br />
-    <?php _e("Use this script for show manually (if you want)", 'packages_relationship'); ?>.
+    <?php _e("Use this script to show manually (if you want)", 'packages'); ?>.
 </div>
 
 <!-- Requests/Invitations module setting -->
@@ -108,7 +108,7 @@ echo $htmlStyle;
 </div>
 <div id="script-requests-module" class="form-row">
     <input type="text" class="xlarge" style="width: 300px;" value="&lt;?php osc_run_hook('packages_relationship_requests_module'); ?&gt;" disabled><br />
-    <?php _e("Use this script for show manually (if you want)", 'packages_relationship'); ?>.
+    <?php _e("Use this script to show manually (if you want)", 'packages'); ?>.
 </div>
 
 <!-- Members module setting -->
@@ -120,7 +120,7 @@ echo $htmlStyle;
 </div>
 <div id="script-members-module" class="form-row">
     <input type="text" class="xlarge" style="width: 300px;" value="&lt;?php osc_run_hook('packages_relationship_members_module'); ?&gt;" disabled><br />
-    <?php _e('Use this script for show manually (if you want)', 'packages_relationship'); ?>.
+    <?php _e("Use this script to show manually (if you want)", 'packages'); ?>.
 </div>
 
 <!-- Blocked module setting -->
@@ -132,7 +132,7 @@ echo $htmlStyle;
 </div>
 <div id="script-blocked-module" class="form-row">
     <input type="text" class="xlarge" style="width: 300px;" value="&lt;?php osc_run_hook('packages_relationship_blocked_module'); ?&gt;" disabled><br />
-    <?php _e("Use this script for show manually (if you want)", 'packages_relationship'); ?>.
+    <?php _e("Use this script to show manually (if you want)", 'packages'); ?>.
 </div>
 <script>
     $(document).ready(function () {
