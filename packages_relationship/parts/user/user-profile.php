@@ -23,7 +23,7 @@ if (osc_is_web_user_logged_in()) : ?>
 
 
     <?php // For accounts type Company
-    if (osc_logged_user_type() == 1) : ?>
+    if (osc_logged_user_type()) : ?>
         <div class="control-group">
             <div class="controls">
                 <input type="checkbox" <?php if ($receiveRequests == true) echo 'checked="true"'; ?> name="b_packages_relationship_requests" value="1"> <?php _e("Receive requests?", 'packages_relationship'); ?>
@@ -33,7 +33,7 @@ if (osc_is_web_user_logged_in()) : ?>
 
 
     <?php // For accounts type User
-    if (osc_logged_user_type() == 0) : ?>
+    if (!osc_logged_user_type()) : ?>
         
         <?php $linkByUserSon    = packages_relationship_link_by_user_son(); ?>
         <?php $request          = packages_relationship_request_from_user(); ?>

@@ -1,3 +1,8 @@
+Packages Relationship 1.0.4 2020-02-17
+----------------------
+- Fixed several bug
+- Custom templates support
+
 Packages Relationship 1.0.3 2020-02-12
 ----------------------
 - Added minimum new details
